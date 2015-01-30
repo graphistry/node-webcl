@@ -150,7 +150,7 @@ struct Baton {
 
 namespace CLObjType {
 enum CLObjType {
-  None=0,
+  clObjNone=0,
   Platform,
   Device,
   Context,
@@ -193,7 +193,7 @@ public:
   }
 
 protected:
-  WebCLObject() : _type(CLObjType::None)
+  WebCLObject() : _type(CLObjType::clObjNone)
   {}
 
   virtual ~WebCLObject() {
