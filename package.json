@@ -35,7 +35,7 @@
     "install": "node-gyp rebuild --msvs_version=2013"
   },
   "dependencies": {
-    "node-webgl": ">=0.4.2",
+    "node-webgl": "~0.4.0",
     "node-image": ">=0.7.1",
     "nan": "~1.2.0"
   },
